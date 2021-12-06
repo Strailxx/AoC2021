@@ -17,7 +17,7 @@ public class Day6 {
             listOfAges.add(input.nextInt());
         }
 
-        for (int i = 0; i < 256; i++) {
+        for (int i = 0; i < 80; i++) {
             int size = listOfAges.size();
             for (int j = 0; j < size; j++) {
                 listOfAges.set(j, listOfAges.get(j) - 1);
